@@ -1,0 +1,38 @@
+.App {
+  color: rgb(242, 242, 242);
+  width: 36%;
+  margin: 40px auto;
+}
+
+.Task h3{
+  display: flex;
+  align-items: center;
+}
+.Task{
+  background-color: rgb(85, 85, 85);
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 5px;
+  border-radius: 6px;
+}
+
+.Task button{
+  background-color: rgb(85, 85, 85);
+  border:none;
+  font-size: 1em;
+}
+
+.Task button:hover{
+  background-color: rgb(90, 90, 90);
+}
+
+.AddTask{
+padding: 20px;
+margin: 30px;
+}
+small{
+  color: rgb(85, 85, 85);
+  text-align: center;
+}
